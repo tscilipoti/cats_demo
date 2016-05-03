@@ -10,11 +10,11 @@ var Cat = {
   getColor: function() {
     switch(this.name){
       case 'sparky':
-        return 'orange';
+        return 'My color is orange.';
       case 'clara':
-        return 'black';
+        return 'My color is black.';
       default:
-        return 'tabby';
+        return 'My color is tabby.';
     }
   }, 
   
